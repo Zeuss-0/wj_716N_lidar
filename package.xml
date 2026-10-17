@@ -2,12 +2,12 @@
 <package format="2">
   <name>wj_716N_lidar</name>
   <version>0.1.0</version>
-  <description>The wj_716N_lidar package</description>
+  <description>ROS 1 driver for the Wanji (万集) 716N 2D lidar. Publishes sensor_msgs/LaserScan over TCP.</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="WJ@todo.todo">WJ</maintainer>
+  <maintainer email="3084288849@qq.com">Jiuxu Yang</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
@@ -20,13 +20,14 @@
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
   <!-- <url type="website">http://wiki.ros.org/wj_716N_lidar</url> -->
+  <url type="repository">https://github.com/Zeuss-0/wj_716N_lidar</url>
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
   <!-- Authors do not have to be maintainers, but could be -->
   <!-- Example: -->
   <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
-  <author >WJ</author>
+  <author email="3084288849@qq.com">Jiuxu Yang</author>
 
 
   <!-- The *depend tags are used to specify dependencies -->
@@ -54,7 +55,14 @@
   <build_export_depend>roscpp</build_export_depend>
   <exec_depend>roscpp</exec_depend>
 
+  <build_depend>sensor_msgs</build_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <build_depend>visualization_msgs</build_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+
   <build_depend>dynamic_reconfigure</build_depend>
+  <exec_depend>dynamic_reconfigure</exec_depend>
 
 
 
