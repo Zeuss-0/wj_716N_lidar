@@ -16,6 +16,8 @@ by their licenses.
   https://github.com/MagicPrince666/ros2_wj_716N_lidar
   ("万集mini 激光雷达，支持ros/ros2").
 - License: the original files carry no license or copyright header.
-  This package declares Apache 2.0 in its `package.xml`.
+  This package declares Apache 2.0 in its `package.xml`, and the root
+  `LICENSE` file reproduces that Apache-2.0 text.
+  The root `LICENSE` does not re-license these vendor files.
   Redistribution rights for the original vendor code are unclear;
   please confirm licensing with WanJi Technology （万集科技） if in doubt.

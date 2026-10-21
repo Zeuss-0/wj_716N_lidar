@@ -1,10 +1,10 @@
 <?xml version="1.1"?>
 <!-- start and stop angle is given in [rad] -->
 <!--
-default min_angle is -135 degree.
-default max_angle is +135 degree.  
+The driver indexes a full scan of -135 deg .. +135 deg.
+min_ang / max_ang in this file are -115 deg .. +115 deg.
 
-Check IP-address, if you scanner is not found after roslaunch.
+Check the IP address if your scanner is not found after roslaunch.
 -->
 
 <launch>
@@ -13,9 +13,9 @@ Check IP-address, if you scanner is not found after roslaunch.
   <param name="port"             type="string"  value="2110" />
   <param name="frequency_scan"   type="int"     value="1" />    <!-- 1: 0.25°_15hz,
                                                                      2: 0.25°_25hz,-->
-  <!-- -135° -->
+  <!-- -115° -->
   <param name="min_ang"          type="double"  value="-2.00712864" />
-  <!-- 135° -->
+  <!-- 115° -->
   <param name="max_ang"          type="double"  value="2.00712864" />
   <param name="frame_id"         type="str"     value="laser" />
   <param name="range_min"        type="double"  value="0.05" />
@@ -37,7 +37,7 @@ DEG	RAD
 -150	-2.617993878
 -145	-2.530727415
 -140	-2.443460953
--137.5	-2,3998277
+-137.5	-2.3998277
 -135	-2.35619449
 -130	-2.268928028
 -125	-2.181661565
@@ -93,7 +93,7 @@ DEG	RAD
 125	2.181661565
 130	2.268928028
 135	2.35619449
-137.5	2,3998277
+137.5	2.3998277
 140	2.443460953
 145	2.530727415
 150	2.617993878

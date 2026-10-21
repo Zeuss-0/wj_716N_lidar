@@ -9,8 +9,9 @@ project(wj_716N_lidar)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   roscpp
+  sensor_msgs
+  visualization_msgs
   dynamic_reconfigure
-
 )
 
 ## System dependencies are found with CMake's conventions
